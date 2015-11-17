@@ -24,7 +24,7 @@
     // frame
     for (int j = 0; j < 5; j++) {
         for (int i = 0; i < 5; i++) {
-            CGRect frame = CGRectMake(20*j, 100 + 20*i, 10, 10);
+            CGRect frame = CGRectMake(100 + 50*j, 100 + 50*i, 10, 10);
             UIView *tempView = [[UIView alloc] initWithFrame:frame];
             tempView.backgroundColor = [UIColor redColor];
             [self.view addSubview:tempView];
